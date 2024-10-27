@@ -1,0 +1,8 @@
+Użytkownik - potencjalna osoba grająca w naszą grę
+Rozpocznij grę o danym poziomie trudności - stworzenie planszy o określonym poziomie trudności przez użytkownika
+Wczytaj grę - wczytaj stan gry, która została kiedyś rozpoczęta
+Zapisz grę - zapisuje aktualny stan gry do pliku
+Zapis obrazu gry do pliku .jpg - robi zrzut ekranu aktualnego stanu planszy i zapisuje do pliku .jpg
+Łączenie cyfr ze sobą - połączenie dwóch takich samych cyfr w pary za pomocą lini, użytkownik decyduje jaki kształt przyjmuje linia idąca od jednej cyfry do drugiej
+Cofnij ruch - cofnięcie poprzednio wykonanego ruchu
+Zrestartuj grę - usunięcie wszystkich połączeń/otrzymanie stanu początkowego danej planszy

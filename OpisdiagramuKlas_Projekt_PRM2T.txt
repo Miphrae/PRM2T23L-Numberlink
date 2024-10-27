@@ -1,0 +1,36 @@
+Klasa Simulation - Odpowiada za włączenie gry, zakończenie gry i obsługiwanie błędów
+
+Klasa GamePanel - Graficzny interfejs użytkowanika. Wyświetla planszę do gry i przyciski funkcyjne. Wydaje tekstowe komunikaty:
+	-> clickMouse() - interpretuje kliknięcie myszki przez użytkownika
+	-> restart() - wyświetla przycik restart
+	-> initialize() - wyświetla pustą planszę
+	-> undo() - wyświetla przycisk undo
+	-> saveImage() - wyświetla przycisk do zapisu obrazu
+	-> start() - wyświetla przycisk start
+	-> save() - wyświetla przycisk do zapisania stanu gry
+	-> dragMouse() - interpretuje przeciągnięcie myszki
+	-> displayPanel() - wyświetla tekst (informacje o przegranej/wygranej)
+	-> showSolution() - wyświetla przycisk do otrzymania odpowiedzi
+
+Klasa Creator - Generuje reprezentację gry w postaci list:
+	-> generateEasy() - generuje prostą wersję gry
+	-> generateHard() - generuje skomplikowaną wersję gry
+	-> saveGame() - zapisuje stan gry
+
+Klasa StatusPanel - Ustawia tekst do wyświetlenia na GUI:
+	-> setDisplay() - ustawia tekst do wyświetlenia na GUI
+
+Klasa Button - Nadaje funkcje przyciskom:
+	-> save() - zapis aktualnego stanu gry
+	-> undo() - cofnięcie się o jeden ruch
+	-> start() - rozpoczęcie gry
+	-> restart() - rozpoczęcie gry od nowa
+	-> saveImage() - zapis planszy 
+
+Klasa Square - Jest kwadratem, z których składa się plansza
+
+Klasa ColoredSquare -> dziedziczy po Square - ustala kolor kwadratów:
+	-> setColor() - ustala kolor kwadratu
+
+Klasa NumberSquare -> diedziczy po Square - ustala cyfrę na kwadratach:
+	-> setNumber() - ustala cyfrę na kwadraacie
